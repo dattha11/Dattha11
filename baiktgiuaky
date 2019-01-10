@@ -7,14 +7,14 @@ int main()
  	double k; //so tien ky vong
 	cout<<"Nhap so tien gui:";
 	cin>>i;
-	cout<<"Nhap lai xuat (%)";
+	cout<<"Nhap lai xuat (%):";
 	cin>>n;
 	cout<<"Nhap so tien ky vong:";
 	cin>>k;
 	double e=0;
-	while(s<k)
+	while(i<k)
 	{
-		i=i+(s*n/100);
+		i=i+(i*n/100);
 		e=e+1;
 	}
 	cout<<"so nam de dat duoc so tien ky vong:"<<e;
