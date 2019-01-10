@@ -14,7 +14,7 @@ int main()
 	double e=0;
 	while(i<k)
 	{
-		i=i+(i*n/100);
+		i=i+(i*(n/100));
 		e=e+1;
 	}
 	cout<<"so nam de dat duoc so tien ky vong:"<<e;
