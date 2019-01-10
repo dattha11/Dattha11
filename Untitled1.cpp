@@ -10,7 +10,7 @@ int main()
 	double a,b;
 	cout<<"Nhap vao so tien von: ";
 	cin>>tienvon;
-	cout<<"Nhap vao lai suat: ";
+	cout<<"Nhap vao lai suat(%): ";
 	cin>>laisuat;
 	cout<<"Nhap vao so tien ki vong: ";
 	cin>>tienkivong;
